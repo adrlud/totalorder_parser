@@ -1,5 +1,7 @@
 import xml.etree.ElementTree as ET
 
+
+
 def totalorder2Dict(xml_file_path):
     tree = ET.parse(xml_file_path)
     root = tree.getroot()
